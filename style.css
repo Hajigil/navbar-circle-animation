@@ -75,10 +75,11 @@ nav {
     }
     .word {
         position: absolute;
-        right: 6.4%;
+        right: 6.1%;
         top: 63%;
         opacity: 1;
         font-size: 10.3px;
+        line-heigth: 1.5;
         color: white;
     }
     
