@@ -13,6 +13,10 @@ nav {
     background: #5b78c7;
 }
 
+.word {
+    opacity: 0;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -69,14 +73,15 @@ nav {
         transform: translate(-5%, -50%);
         z-index: 2;
     }
-    .hamburger-menu {
+    .word {
         position: absolute;
-        cursor: pointer;
-        right: 5%;
-        top: 57.5%;
-        transform: translate(-5%, -50%);
-        z-index: 1;
+        right: 6.4%;
+        top: 63%;
+        opacity: 1;
+        font-size: 10.3px;
+        color: white;
     }
+    
     .nav-links {
         position: fixed;
         background: #5b78c7;
